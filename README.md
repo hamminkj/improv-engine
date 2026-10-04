@@ -12,6 +12,12 @@ Developed by Julianne Hammink
 
 Press F11 in the game to toggle fullscreen. The project is set up for a 1920x1080 projector.
 
+## Play in a browser
+
+A web build is in `docs/`. After turning on GitHub Pages (Settings, Pages, Deploy from a branch, branch `main`, folder `/docs`), it plays at https://hamminkj.github.io/improv-engine/ in Chrome, Firefox, or Edge. Click the page once so the keyboard controls work.
+
+To rebuild it after changing the game: install the Godot 4.4 web export templates, then run `godot --headless --export-release "Web" docs/index.html`.
+
 ## How a show runs
 
 1. **Set up**: performers (2 to 10), format, length, intensity, which twist types are allowed, whether the screen fires surprise twists on its own, and an optional seed.
